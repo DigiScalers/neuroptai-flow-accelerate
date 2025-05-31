@@ -48,8 +48,8 @@ const Navigation = () => {
                 {item.name}
               </Link>
             ))}
-            <Button className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
-              Get Started
+            <Button className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700" asChild>
+              <Link to="/contact">Get Started</Link>
             </Button>
           </div>
 
@@ -82,8 +82,8 @@ const Navigation = () => {
               </Link>
             ))}
             <div className="px-3 py-2">
-              <Button className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
-                Get Started
+              <Button className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700" asChild>
+                <Link to="/contact">Get Started</Link>
               </Button>
             </div>
           </div>
